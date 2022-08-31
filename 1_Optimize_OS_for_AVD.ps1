@@ -15,7 +15,7 @@
  Set-Location -Path C:\\Optimize\\Virtual-Desktop-Optimization-Tool-master
  
  # instrumentation
- $osOptURL = 'https://raw.githubusercontent.com/The-Virtual-Desktop-Team/Virtual-Desktop-Optimization-Tool/master/Win10_VirtualDesktop_Optimize.ps1'
+ $osOptURL = 'https://raw.githubusercontent.com/The-Virtual-Desktop-Team/Virtual-Desktop-Optimization-Tool/main/Windows_VDOT.ps1'
  $osOptURLexe = 'optimize.ps1'
  Invoke-WebRequest -Uri $osOptURL -OutFile $osOptURLexe
  
@@ -43,6 +43,6 @@
 
  
  # run script
- # .\optimize -WindowsVersion 2009 -Verbose
-  .\Win10_VirtualDesktop_Optimize.ps1 -WindowsVersion 2009 -Verbose
+  .\optimize -WindowsVersion 2009 -Verbose
+ # .\Win10_VirtualDesktop_Optimize.ps1 -WindowsVersion 2009 -Verbose
   write-host 'AIB Customization: Finished OS Optimizations script'
